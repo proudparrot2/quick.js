@@ -24,4 +24,4 @@ Example:
 ```
 
 
-For docs, click [here](docs.md)
+For the full docs, click [here](https://proudparrot2.gitbook.io/quick.js)
