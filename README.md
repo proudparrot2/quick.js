@@ -5,7 +5,7 @@ A lightweight JavaScript library aimed for you to stop using long and repetitive
 ## Installation
 For HTML, include this script tag in your `<head>` tag:
 ```html
-<script src="https://delivr.repl.co/files/quick.js/quick.js"></script>
+<script src="https://delivr.repl.co/files/quick.js/latest.js"></script>
 ```
 <br>
 
@@ -13,7 +13,7 @@ Example:
 
 ```html
 <head>
-  <script src="https://delivr.repl.co/files/quick.js/quick.js"></script>
+  <script src="https://delivr.repl.co/files/quick.js/latest.js"></script>
 </head>
 
 <body>
