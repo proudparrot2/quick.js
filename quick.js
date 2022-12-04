@@ -2,7 +2,7 @@
 //  
 //  █▀█ █░█ █ █▀▀ █▄▀ ░ ░░█ █▀
 //  ▀▀█ █▄█ █ █▄▄ █░█ ▄ █▄█ ▄█
-//  version 1.7
+//  version 1.7.1
 //
 //
 
@@ -37,7 +37,31 @@ var _ = (function () {
     elem.style.setProperty(prop, value)
     
   }
-  
+
+  quick.hide = function(elem) {
+    if (typeof elem == "string") return document.querySelector(elem).style.display = "none"
+    elem.style.display = "none"
+  }
+
+  quick.show = function(elem) {
+    if (typeof elem == "string") return document.querySelector(elem).style.removeProperty("display")
+  }
+
+  quick.toggle = function(elem) {
+    if (typeof elem == "string") {
+      var e = document.querySelector(elem)
+      if (e.style.display == "none") {
+        return e.style.removeProperty("display")
+      } else {
+        return e.style.display = "none"
+      }
+    }
+    if (elem.style.display == "none") {
+      return elem.style.removeProperty("display")
+    } else {
+      return elem.style.display = "none"
+    }
+  }
   quick.removeClass = function(elem, classname) {
     if (typeof elem === "string") return document.querySelector(elem).classList.remove(classname)
     elem.classList.remove(classname)
