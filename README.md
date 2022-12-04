@@ -1,5 +1,5 @@
 # quick.js
-A lightweight JavaScript library aimed for you to stop using long and repetitive code.
+A tiny (3kb), lightweight, fast JavaScript library to help you stop writing long, repetitive code.
 
 
 ## Installation
@@ -24,4 +24,4 @@ Example:
 ```
 
 
-For the full docs, click [here](https://proudparrot2.gitbook.io/quick.js)
+> ### For the full docs, click [here](https://proudparrot2.gitbook.io/quick.js)
