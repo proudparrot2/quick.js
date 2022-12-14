@@ -5,7 +5,7 @@ A tiny (3kb), lightweight, fast JavaScript library that simplifies long, repetit
 ## Installation
 For HTML, include this script tag in your `<head>` tag:
 ```html
-<script src="https://delivr.repl.co/files/quick.js/latest.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/proudparrot2/quick.js/quick.js"></script>
 ```
 <br>
 
@@ -13,7 +13,7 @@ Example:
 
 ```html
 <head>
-  <script src="https://delivr.repl.co/files/quick.js/latest.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/proudparrot2/quick.js/quick.js"></script>
 </head>
 
 <body>
