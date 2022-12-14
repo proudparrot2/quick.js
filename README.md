@@ -1,5 +1,5 @@
 # quick.js
-A tiny (3kb), lightweight, fast JavaScript library to help you stop writing long, repetitive code.
+A tiny (3kb), lightweight, fast JavaScript library that simplifies long, repetitive code, and makes it easier to write.
 
 
 ## Installation
