@@ -24,4 +24,4 @@ Example:
 ```
 
 
-> ### For the full docs, click [here](https://proudparrot2.gitbook.io/quick.js)
+> ### For the full docs, click [here](https://quick.js.org)
